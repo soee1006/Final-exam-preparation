@@ -285,11 +285,11 @@ def grade_answers(answer_map):
 
 # ---------- UI ----------
 st.set_page_config(
-    page_title="Grammar Choice Quiz",
+    page_title="Verb Choice Quiz",
     layout="wide"
 )
 
-st.title("📘 Grammar Choice Quiz")
+st.title("📘 Verb Choice Quiz")
 
 st.markdown(
     """
