@@ -430,4 +430,3 @@ if "answer_map" in st.session_state:
                     f"{r['num']}번 오답 "
                     f"(정답: {r['correct']})"
                 )
-```
