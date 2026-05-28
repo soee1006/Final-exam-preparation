@@ -12,10 +12,6 @@ try:
 except LookupError:
     nltk.download("punkt", quiet=True)
 
-try:
-    nltk.data.find("tokenizers/punkt_tab")
-except LookupError:
-    nltk.download("punkt_tab", quiet=True)
 
 # 2) 품사 태거: 기존 이름 + 새로운 이름 모두 대비
 try:
